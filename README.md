@@ -56,15 +56,15 @@ Perl, Python, and shell programs are used.
 Statistical Machine Translation: Phrase Based Statistical Machine Translation(PBSMT). MosesDecoder are used to implement PBSMT. Neural machine Translation: Encoder -Decoder, Encoder -Decoder model with Attention Mechanism. TensorFlow is used to implement NMT.
 
 ## References
-[1] José Carlos Rosales Núñez, ”A Comparison between NMT and PBSMT Performance for Translating Noisy User-Generated Content”, Université Paris Sud, LIMSI.
-[2] Guillem Gasc ́o i Mora and Joan Andreu S ́anchez Peir ́o, ”Part-of-Speech Tagging Based on Machine Translation Techniques”, Departament de Sistemes Inform‘atics i Computaci ́o Universitat Polit‘encia de Val‘encia Cam ́ı de Vera s/n, 46022 Val‘encia (Spain) .
-[3] Xiaocheng Feng, ”Enhanced Neural Machine Translation by Joint Decoding with Word and POS-tagging Sequences”, Springer Science+Business Media, LLC, part of Springer Nature 2020.
-[4] Koehn, Philipp, and Och, Franz Josef and Marcu, Daniel, “Stastatistical phrase-based translation,” Proceedings of the 2003 Con- ference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology Volume 1, 2003, pp. 48–54.
+[1] José Carlos Rosales Núñez, ”A Comparison between NMT and PBSMT Performance for Translating Noisy User-Generated Content”, Université Paris Sud, LIMSI.<br>
+[2] Guillem Gasc ́o i Mora and Joan Andreu S ́anchez Peir ́o, ”Part-of-Speech Tagging Based on Machine Translation Techniques”, Departament de Sistemes Inform‘atics i Computaci ́o Universitat Polit‘encia de Val‘encia Cam ́ı de Vera s/n, 46022 Val‘encia (Spain) . <br>
+[3] Xiaocheng Feng, ”Enhanced Neural Machine Translation by Joint Decoding with Word and POS-tagging Sequences”, Springer Science+Business Media, LLC, part of Springer Nature 2020.<br>
+[4] Koehn, Philipp, and Och, Franz Josef and Marcu, Daniel, “Stastatistical phrase-based translation,” Proceedings of the 2003 Con- ference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology Volume 1, 2003, pp. 48–54.<br>
 [5] Lucia Specia„ “Tutorial, Fundamental and New Approachesto Statistical Machine Translation,” International Conference.
-[6] D. Kauchak and R. Barzilay, “Paraphrasing for automatic evaluation,” Asso. Com. Ling. New York City, USA, vol. Pro. Hum.Lang. Tech. Conf. NAACL, Main Conference, pp. 455–462, June 2006.
-[7] P. Koehn, H. Hoang, A. Birch, C. Callison-Burch, M. Federico,N. Bertoldi, B. Cowan, W. Shen, C. Moran, R. Zens, C. Dyer, O. Bojar, A. Constantin and E. Herbst, “Moses: Open source toolkit for statistical machine translation,” Asso. Com. Linguistics, booktitle. Proc. ACL-08: HLT, Proc. 45th Ann. Meet. Asso.Com. Ling. Comp. vol. Proc. Demo and Poster Sessions, Prague, Czech Republic, pp. 177–180, June 2007.
-[8] F. Braune, A. Gojun and A. Fraser, “Long-distance reordering during search for hierarchical phrase-based SMT,” In Proc. of the 16th Ann. Conf. of the Euro. Asso. for Mac. Translation, Trento, Italy, pp. 177–184. 2012.
-[9] Papineni, K.; Roukos, S.; Ward, T.; Zhu, W. J. (2002).
+[6] D. Kauchak and R. Barzilay, “Paraphrasing for automatic evaluation,” Asso. Com. Ling. New York City, USA, vol. Pro. Hum.Lang. Tech. Conf. NAACL, Main Conference, pp. 455–462, June 2006.<br>
+[7] P. Koehn, H. Hoang, A. Birch, C. Callison-Burch, M. Federico,N. Bertoldi, B. Cowan, W. Shen, C. Moran, R. Zens, C. Dyer, O. Bojar, A. Constantin and E. Herbst, “Moses: Open source toolkit for statistical machine translation,” Asso. Com. Linguistics, booktitle. Proc. ACL-08: HLT, Proc. 45th Ann. Meet. Asso.Com. Ling. Comp. vol. Proc. Demo and Poster Sessions, Prague, Czech Republic, pp. 177–180, June 2007.<br>
+[8] F. Braune, A. Gojun and A. Fraser, “Long-distance reordering during search for hierarchical phrase-based SMT,” In Proc. of the 16th Ann. Conf. of the Euro. Asso. for Mac. Translation, Trento, Italy, pp. 177–184. 2012.<br>
+[9] Papineni, K.; Roukos, S.; Ward, T.; Zhu, W. J. (2002).<br>
 [10] Hideki Isozaki, Tsutomu Hirao, Kevin Duh, Katsuhito Sudoh, Hajime Tsukada Automatic Evaluation of Translation Quality for Distant Language Pairs
 
 ## Access Here

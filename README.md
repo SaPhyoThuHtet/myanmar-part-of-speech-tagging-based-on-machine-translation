@@ -55,6 +55,14 @@ Perl, Python, and shell programs are used.
 ## Methodology
 Statistical Machine Translation: Phrase Based Statistical Machine Translation(PBSMT). MosesDecoder are used to implement PBSMT. Neural machine Translation: Encoder -Decoder, Encoder -Decoder model with Attention Mechanism. TensorFlow is used to implement NMT.
 
+## Results and Discussion
+Model | BLEU | RIBES| ChrF++ (c6+w2-avgF)
+| ------------- | ------------- |------------- ||------------- |
+PBSMT|**0.7727**|**0.9726**|**89.05**
+LSTM|**0.4529**|**0.8647**|**75.25**
+
+
+
 ## References
 [1] José Carlos Rosales Núñez, ”A Comparison between NMT and PBSMT Performance for Translating Noisy User-Generated Content”, Université Paris Sud, LIMSI.<br>
 [2] Guillem Gasc ́o i Mora and Joan Andreu S ́anchez Peir ́o, ”Part-of-Speech Tagging Based on Machine Translation Techniques”, Departament de Sistemes Inform‘atics i Computaci ́o Universitat Polit‘encia de Val‘encia Cam ́ı de Vera s/n, 46022 Val‘encia (Spain) . <br>

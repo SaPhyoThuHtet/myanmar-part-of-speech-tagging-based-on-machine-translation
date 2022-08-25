@@ -51,5 +51,11 @@ The preprocessing stages of word indexing, sentence indexing, and padding are pe
 Perl, Python, and shell programs are used.
 
 ![FIGURE I: Analysis of the number of tags ](https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/blob/main/images/fig1.png)
+
+### Methodology
+Statistical Machine Translation: Phrase Based Statistical Machine Translation(PBSMT). MosesDecoder are used to implement PBSMT
+
+Neural machine Translation: Encoder -Decoder, Encoder -Decoder model with Attention Mechanism. TensorFlow is used to implement NMT.
+
  
 

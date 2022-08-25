@@ -39,7 +39,7 @@ Sample of the data can be described as
 14. tn as Text Number (E.g. တစ်, နှစ်)
 15. v as Verb (E.g. လှုပ်ရှား )
 
-### Data Preprocessing
+## Data Preprocessing
 Data Formatting is performed.
 Original Data: ယခု/n လ/n တွင်/ppm ပျားရည်/n နှင့်/conj ပျားဖယောင်း/n များ/part ကို/ppm စုဆောင်း/v ကြ/part သည်/ppm ဟု/part ခန့်မှန်း/v နိုင်/part သည်/ppm ။/punc
 Formatted Data: ယခု လ တွင် ပျားရည် နှင့် ပျားဖယောင်း များ ကို စုဆောင်း ကြ သည် ဟု ခန့်မှန်း နိုင် သည် ။<|||>n n ppm n conj n part ppm v part ppm part v part ppm punc
@@ -52,15 +52,15 @@ Perl, Python, and shell programs are used.
 
 ![FIGURE I: Analysis of the number of tags ](https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/blob/main/images/fig1.png)
 
-### Methodology
+## Methodology
 Statistical Machine Translation: Phrase Based Statistical Machine Translation(PBSMT). MosesDecoder are used to implement PBSMT. Neural machine Translation: Encoder -Decoder, Encoder -Decoder model with Attention Mechanism. TensorFlow is used to implement NMT.
 
-### Access Here
+## Access Here
 Power Point: https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/tree/main/4.%20Presentation<br>
 Paper: https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/tree/main/3.%20paper<br>
 Latex: https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/blob/main/3.%20paper/paraphrase.tex
 
-### License
+## License
 Copyright (c) 2022 Thate Pan Hub
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

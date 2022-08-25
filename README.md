@@ -57,9 +57,9 @@ Statistical Machine Translation: Phrase Based Statistical Machine Translation(PB
 
 ## Results and Discussion
 Model | BLEU | RIBES| ChrF++ (c6+w2-avgF)
-| ------------- | ------------- |------------- ||------------- |
+| ------------- | ------------- |------------- |------------- |
 PBSMT|**0.7727**|**0.9726**|**89.05**
-LSTM|**0.4529**|**0.8647**|**75.25**
+LSTM|0.4529|0.8647|75.25
 
 
 

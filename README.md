@@ -62,6 +62,26 @@ PBSMT|**0.7727**|**0.9726**|**89.05**
 LSTM|0.4529|0.8647|75.25
 LSTM with attention|0.7699|0.9659|85.57
 
+The performance of PBSMT in all of the categories of BLEU, RIBES, and ChrF ++ is the best.<br>
+BLEU score (0.7727), RIBES score (0.9726), and ChrF ++ (89.05)<br>
+On the other hand, the lowest score results in LSTM Model.<br>
+BLEU score (0.4529), RIBES score (0.8646), and ChrF ++ (75.25).<br>
+LSTM enhanced with attention Mechanism is also working well in the evaluation scores.<br>
+BLEU score (0.7699), RIBES (0.9659), and ChrF++(85.57).<br>
+For the current data, the architecture of LSTM can not perform well regarding BLEU Score (0.4529).
+
+## Error Analysis
+
+### PBSMT
+
+Input: မြန်မာ့ တေးဂီတ ကို ပတ်ဝိုင်း ၊ ကြေးဝိုင်း ၊ ပတ္တလား နှင့် လေမှုတ်တူရိယာ များ ဖြစ် သည့် နှဲ ၊ နှဲကြီး ၊ ပလွေ ၊ ဝါးလက်ခုပ် နှင့် ကြိုးတပ်တူရိယာ များ အား ဆိုင်းဝိုင်း ခေါ် သံစုံတီးဝိုင်း ဖွဲ့ ၍ တီးခတ် ကြ သည် ။
+Reference: n n ppm n punc n punc n conj n part v part n punc n punc n punc n conj n part ppm n v n v conj v part ppm punc
+Hypothesis: n n ppm **ပတ်ဝိုင်း** punc **ကြေးဝိုင်း** punc **ပတ္တလား** conj **လေမှုတ်တူရိယာ** part v part v punc **နှဲကြီး** punc **ပလွေ** punc ဝါးလက်ခုပ် conj **ကြိုးတပ်တူရိယာ** part ppm **ဆိုင်းဝိုင်း** v **သံစုံတီးဝိုင်း** v conj **တီးခတ်** part ppm punc
+
+
+
+
+
 
 
 

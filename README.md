@@ -1,4 +1,4 @@
-# MyanmarPart-of-Speech Tagging Based on Machine Translation, NLP-Class-Final-Project
+# Myanmar Part-of-Speech Tagging Based on Machine Translation, NLP-Class-Final-Project
 This compares the performances achieved by Phrase-Based Statistical Machine Translation system (PBSMT), Neural Machine Translation based on sequence model of LSTM (Long Short Term Memory), and Attention-Based Neural Machine Translation systems when translating Part-Of-Speech tagging (POS tagging) in Myanmar Language.  Part-Of-Speech tagging is essential in natural language processing: most NLP tasks such as building lemmatizers, text classification, spelling checkers, and others require POS Tagging as a foundation step. The three approaches use parallel data Myanmar-POS tagging corpus with word segmented 10k text. Through the research, PBSMT outperforms NMT. PBSMT also has a much higher evaluation score in comparison. The evaluation process of this research uses metrics RIBES score, BLEU score, and ChrF++. The result shows the Statistical approach outperforms Neural Machine Translation based on the data used in this research.
 
 
@@ -55,3 +55,6 @@ Perl, Python, and shell programs are used.
 ### Methodology
 Statistical Machine Translation: Phrase Based Statistical Machine Translation(PBSMT). MosesDecoder are used to implement PBSMT. Neural machine Translation: Encoder -Decoder, Encoder -Decoder model with Attention Mechanism. TensorFlow is used to implement NMT.
 
+### Access Here
+Power Point: https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/tree/main/4.%20Presentation
+Paper: https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/tree/main/3.%20paper

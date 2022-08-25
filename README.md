@@ -39,4 +39,15 @@ Sample of the data can be described as
 14. tn as Text Number (E.g. တစ်, နှစ်)
 15. v as Verb (E.g. လှုပ်ရှား )
 
+### Data Preprocessing
+Data Formatting is performed.
+Original Data: ယခု/n လ/n တွင်/ppm ပျားရည်/n နှင့်/conj ပျားဖယောင်း/n များ/part ကို/ppm စုဆောင်း/v ကြ/part သည်/ppm ဟု/part ခန့်မှန်း/v နိုင်/part သည်/ppm ။/punc
+Formatted Data: ယခု လ တွင် ပျားရည် နှင့် ပျားဖယောင်း များ ကို စုဆောင်း ကြ သည် ဟု ခန့်မှန်း နိုင် သည် ။<|||>n n ppm n conj n part ppm v part ppm part v part ppm punc
+Data is shuffled and divided into training, development, and testing.
+In neural machine translation, “start” and “end” are introduced  in the target sentences.
+       E.g. start_ n ppm n n ppm ppm n adj n adj v part part ppm punc _end
+Formatting to fit into pandas dataframe is executed.
+The preprocessing stages of word indexing, sentence indexing, and padding are performed in LSTM, and  LSTM with attention.
+Perl, Python, and shell programs are used.
+ 
 

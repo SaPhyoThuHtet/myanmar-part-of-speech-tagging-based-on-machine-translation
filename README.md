@@ -49,5 +49,7 @@ In neural machine translation, “start” and “end” are introduced  in the 
 Formatting to fit into pandas dataframe is executed.
 The preprocessing stages of word indexing, sentence indexing, and padding are performed in LSTM, and  LSTM with attention.
 Perl, Python, and shell programs are used.
+
+![FIGURE I: Analysis of the number of tags ]([http://url/to/img.png](https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/blob/main/images/fig1.png))
  
 

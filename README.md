@@ -78,12 +78,24 @@ Input: မြန်မာ့ တေးဂီတ ကို ပတ်ဝိုင�
 Reference: n n ppm n punc n punc n conj n part v part n punc n punc n punc n conj n part ppm n v n v conj v part ppm punc
 Hypothesis: n n ppm **ပတ်ဝိုင်း** punc **ကြေးဝိုင်း** punc **ပတ္တလား** conj **လေမှုတ်တူရိယာ** part v part v punc **နှဲကြီး** punc **ပလွေ** punc ဝါးလက်ခုပ် conj **ကြိုးတပ်တူရိယာ** part ppm **ဆိုင်းဝိုင်း** v **သံစုံတီးဝိုင်း** v conj **တီးခတ်** part ppm punc
 
+### LSTM
+The confusion pairs are especially  part ==> n,   v ==> n,  n ==> part.
+input: ယူရေးနပ်စ် ဂြိုဟ် နှင့် နက်ပကျွန်း ဂြိုဟ် တို့ ကြား ရှိ အကွာအဝေး မှာ ၁.၆ ဘီလီယံ ကီလိုမီတာ ဖြစ် သည် ။
+Ref: n n conj n n **part n** v n ppm num n n v ppm punc 
+Hyp: n n conj n n **n part** v n n n ppm n v ppm punc
 
+LSTM can work well on short sentences but not on long ones.
+Input: ဘူတာ နား မှာ တည်း ချင် ပါ တယ် ။ 
+Ref:  n n ppm v part part ppm punc 
+Hyp: n n ppm v part part ppm punc
 
-
-
-
-
+### LSTM with attention
+Confusion-pair: (('v', 'part'), 86), (('v', 'n'), 84), (('part', 'v'), 82), (('n', 'v'), 69), (('part', 'n'), 64)
+Most of the OOV are predicted as “n”.
+Original Input: ၁၈၆၀ ခုနှစ် တွင် ဒီလရှယ်လီဘရားသားစ် က ခရစ်ယာန် သာသနာပြု ကျောင်း များ ကို တည်ဆောက် ခဲ့ ကြ သည် ။
+Input: ၁၈၆၀ ခုနှစ် တွင် OOV က ခရစ်ယာန် သာသနာပြု ကျောင်း များ ကို တည်ဆောက် ခဲ့ ကြ သည် ။ 
+Reference:    num n ppm n ppm n v n part ppm v part part ppm punc 
+Hypothesis:  num n ppm n ppm n n n part ppm v part part ppm punc
 
 ## References
 [1] José Carlos Rosales Núñez, ”A Comparison between NMT and PBSMT Performance for Translating Noisy User-Generated Content”, Université Paris Sud, LIMSI.<br>

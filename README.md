@@ -92,7 +92,7 @@ Confusion-pair: (('v', 'part'), 86), (('v', 'n'), 84), (('part', 'v'), 82), (('n
 Most of the OOV are predicted as “n”.
 Original Input: ၁၈၆၀ ခုနှစ် တွင် ဒီလရှယ်လီဘရားသားစ် က ခရစ်ယာန် သာသနာပြု ကျောင်း များ ကို တည်ဆောက် ခဲ့ ကြ သည် ။
 Input: ၁၈၆၀ ခုနှစ် တွင် OOV က ခရစ်ယာန် သာသနာပြု ကျောင်း များ ကို တည်ဆောက် ခဲ့ ကြ သည် ။ 
-Reference:    num n ppm n ppm n ```diff- v```n part ppm v part part ppm punc 
+Reference:    num n ppm n ppm n ```diff - v```n part ppm v part part ppm punc 
 Hypothesis:   num n ppm n ppm n - n n part ppm v part part ppm punc
 
 ## References

@@ -50,8 +50,6 @@ Formatting to fit into pandas dataframe is executed.
 The preprocessing stages of word indexing, sentence indexing, and padding are performed in LSTM, and  LSTM with attention.
 Perl, Python, and shell programs are used.
 
-![FIGURE I: Analysis of the number of tags ](https://github.com/SaPhyoThuHtet/Myanmar-Part-of-Speech-Tagging-Based-on-Machine-Translation/blob/main/images/fig1.png)
-
 ## Methodology
 Statistical Machine Translation: Phrase Based Statistical Machine Translation(PBSMT). MosesDecoder are used to implement PBSMT. Neural machine Translation: Encoder -Decoder, Encoder -Decoder model with Attention Mechanism. TensorFlow is used to implement NMT.
 
@@ -94,8 +92,8 @@ Confusion-pair: (('v', 'part'), 86), (('v', 'n'), 84), (('part', 'v'), 82), (('n
 Most of the OOV are predicted as “n”.
 Original Input: ၁၈၆၀ ခုနှစ် တွင် ဒီလရှယ်လီဘရားသားစ် က ခရစ်ယာန် သာသနာပြု ကျောင်း များ ကို တည်ဆောက် ခဲ့ ကြ သည် ။
 Input: ၁၈၆၀ ခုနှစ် တွင် OOV က ခရစ်ယာန် သာသနာပြု ကျောင်း များ ကို တည်ဆောက် ခဲ့ ကြ သည် ။ 
-Reference:    num n ppm n ppm n v n part ppm v part part ppm punc 
-Hypothesis:  num n ppm n ppm n n n part ppm v part part ppm punc
+Reference:    num n ppm n ppm n - v n part ppm v part part ppm punc 
+Hypothesis:   num n ppm n ppm n - n n part ppm v part part ppm punc
 
 ## References
 [1] José Carlos Rosales Núñez, ”A Comparison between NMT and PBSMT Performance for Translating Noisy User-Generated Content”, Université Paris Sud, LIMSI.<br>
